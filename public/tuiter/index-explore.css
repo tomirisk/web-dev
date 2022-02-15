@@ -85,14 +85,6 @@
   font-weight: bold;
 }
 
-.wd-button-name:hover {
-  border-bottom: 2px solid rgb(29, 161, 242);
-}
-
-.wd-button-name:active {
-  border-bottom: 2px solid rgb(29, 161, 242);
-}
-
 .wd-active-tab {
   color: rgb(29, 161, 242);
   border-bottom-color: rgb(29, 161, 242);
