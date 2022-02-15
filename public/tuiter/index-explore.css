@@ -1,0 +1,184 @@
+.wd-bg-color-black {
+  background-color: black;
+}
+
+.wd-pos-nudge-right {
+  position: relative;
+  left: 16px;
+}
+
+.wd-border-color {
+  color: rgb(47, 51, 54);
+}
+
+.wd-dimension-heading {
+  width: 598px;
+  height: 102px;
+}
+
+.wd-border-fat-bottom {
+  border-top-width: 1px;
+  border-bottom-width: 4px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+.wd-search-tuiter {
+  color: white;
+  background-color: #323131;
+  border-radius: 25px;
+  border-style: none;
+  padding: 5px;
+  padding-left: 30px;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  width: 85%;
+  height: 20px;
+}
+
+.wd-configuration {
+  position: relative;
+  color: blue;
+  float: right;
+  top: 14px;
+  right: 12px;
+}
+
+.wd-magnifying-glass {
+  position: absolute;
+  left: 14px;
+}
+
+.wd-border {
+  border-width: 1px;
+  border-top-width: 0px;
+}
+
+.wd-border-solid {
+  border-style: solid;
+}
+
+.wd-dimension-text-tuit {
+  width: 598px;
+  height: 85px;
+}
+
+.wd-dimension-image-tuit {
+  width: 598px;
+  height: 120px;
+}
+
+.wd-magnifying-glass {
+  position: relative;
+  bottom: 14px;
+  left: 30px;
+}
+
+.wd-float-left {
+  float: left;
+}
+
+.wd-tabs {
+  padding: 16px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wd-button-name:hover {
+  border-bottom: 2px solid rgb(29, 161, 242);
+}
+
+.wd-button-name:active {
+  border-bottom: 2px solid rgb(29, 161, 242);
+}
+
+.wd-active-tab {
+  color: rgb(29, 161, 242);
+  border-bottom-color: rgb(29, 161, 242);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+
+.wd-float-done {
+  clear: both;
+}
+
+.wd-left-element {
+  width: 75%;
+  line-height: normal;
+  float: left;
+}
+
+.wd-right-element {
+  width: 25%;
+  float: left;
+  align-items: center;
+}
+
+.wd-topic {
+  padding-left: 16px;
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+}
+
+.wd-top-padding {
+  padding-top: 16px;
+}
+
+.wd-title {
+  padding-top: 2px;
+  padding-left: 16px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.wd-number-of-tuits {
+  padding-top: 2px;
+  padding-left: 16px;
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+  padding-bottom: 16px;
+}
+
+.wd-font-family {
+  font-family: Arial;
+}
+
+.wd-pos-relative-left-95 {
+  position: relative;
+  left: 95px;
+}
+
+.wd-tabs-color {
+  color: rgb(110, 118, 125);
+}
+
+.wd-company-name {
+  padding-left: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.wd-block {
+  padding-top: 11px;
+}
+
+.wd-float {
+  display: flex;
+}
+
+.wd-pos-relative {
+  position: relative;
+  left: 30px;
+}
+
+img {
+  border-radius: 20%;
+}
+
+
+
+

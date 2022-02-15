@@ -1,0 +1,158 @@
+.wd-bg-color-black {
+  background-color: black;
+}
+
+.wd-border {
+  border-width: 1px;
+  border-top-width: 0px;
+}
+
+.wd-border-solid {
+  border-style: solid;
+}
+
+.wd-border-color {
+  color: rgb(47, 51, 54);
+}
+
+.wd-title-dimension {
+  width: 598px;
+}
+
+.wd-float {
+  display: flex;
+}
+
+.wd-left-element {
+  width: 75%;
+  line-height: normal;
+  float: left;
+}
+
+.wd-right-element {
+  width: 25%;
+  float: left;
+  align-items: center;
+}
+
+.wd-padding-left {
+  padding-left: 16px;
+}
+
+.wd-padding-top {
+  padding-top: 12px;
+}
+
+.wd-fg-color-white {
+  color: white;
+}
+
+.wd-title-font {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.wd-handle-font{
+  font-size: 13px;
+  font-family: Arial;
+  color: rgb(110, 118, 125);
+}
+
+.wd-padding-bottom {
+  padding-bottom: 12px;
+}
+
+.wd-pos-relative-left-95 {
+  position: relative;
+  left: 95px;
+}
+
+.wd-avatar-image {
+  display: block;
+  border-radius: 50%;
+  left: 16px;
+  top: 12px;
+}
+
+.wd-pos-relative {
+  position: relative;
+}
+
+.wd-bookmark-right-element {
+  width: 534px;
+  float: left;
+  align-items: center;
+}
+
+.wd-bookmark-left-element {
+  width: 66px;
+  line-height: normal;
+  float: left;
+  align-items: center;
+}
+
+.wd-main-padding-left {
+  padding-left: 12px;
+}
+
+.wd-fg-color-gray {
+  color: rgb(110, 118, 125);
+}
+
+.wd-rounded-bottom-corners {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.wd-main-image {
+  display: block;
+  left: 64px;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+}
+
+.wd-padding-right {
+  padding-right: 16px;
+}
+
+.wd-main-font {
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.wd-bold-font {
+  font-weight: bold;
+}
+
+.wd-main-content-dimension {
+  width: 504px;
+}
+
+.wd-main-padding {
+  padding: 12px;
+}
+
+.wd-text-left-padding {
+  padding-left: 76px;
+}
+
+.wd-icons-padding {
+  padding-left: 64px;
+}
+
+.wd-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wd-flex-box {
+  padding: 12px;
+}
+
+.wd-heart-color {
+  color: red;
+}
+
+.wd-remove-link-underline {
+  text-decoration: none;
+}
