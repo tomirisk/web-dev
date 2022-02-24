@@ -1,0 +1,28 @@
+.wd-bg-black {
+  background-color: black;
+}
+
+.wd-bg-darkgray {
+  background-color: #303230;
+}
+
+.wd-fg-white {
+  color: white;
+}
+
+.wd-fg-gray {
+  color: #747373;
+}
+
+.wd-fg-black {
+  color: black;
+}
+
+.wd-bg-blue {
+  background-color: #0a53be;
+}
+
+.blue .nav-item .active a,
+.blue .nav-item .active a:hover {
+  background-color: #0a53be;
+}
