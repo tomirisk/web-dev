@@ -5,7 +5,7 @@ return(`
         <i class="fab fa-twitter"></i>
        </a> <!-- continue the rest of the list --> 
        
-       <a id="home" class="list-group-item ${status==='home' ? 'active' : ''}" href="../home.html">
+       <a id="home" class="list-group-item ${status==='home' ? 'active' : ''}" href="../HomeScreen/home.html">
         <i class="fa fa-home"></i>
           <span class="navigation-label">
             Home
