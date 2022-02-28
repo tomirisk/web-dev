@@ -12,7 +12,7 @@ return(`
           </span>
        </a>
        
-       <a id="explore" class="list-group-item ${status==='explore' ? 'active' : ''}" href="../explore.html">
+       <a id="explore" class="list-group-item ${status==='explore' ? 'active' : ''}" href="../ExploreScreen/explore.html">
         <i class="fa fa-hashtag"></i>
           <span class="navigation-label">
             Explore
