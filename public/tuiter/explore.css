@@ -38,7 +38,7 @@ a
   }
 }
 
-.font-ellipse {
+.wd-font-ellipse {
   font-size: 60%;
 }
 
@@ -60,9 +60,9 @@ a
 
 .wd-post-image {
   display: block;
-  max-width: 50%;
-  max-height: 50%;
-  height: auto;
+  width: 65px;
+  height: 67px;
+
   border-radius: 20%;
 }
 
@@ -79,4 +79,12 @@ a
 
 .wd-fg-blue {
   color: #0a58ca;
+}
+
+.wd-borders-not-rounded {
+  border-radius: 0%;
+}
+
+.wd-min-height {
+  min-height: 80px;
 }
