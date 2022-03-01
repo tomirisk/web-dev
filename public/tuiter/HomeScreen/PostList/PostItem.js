@@ -1,50 +1,49 @@
 const PostItem = (post) => {
   return(`
-    <li class="list-group-item wd-follow">
+    <li class="list-group-item wd-follow bg-black">
       <div class="row">
       
       <!--Avatar Image-->
-        <div class="col-2">
+        <div class="col-2 bg-black">
           <img src="${post.avatarIcon}" class="img-responsive rounded-circle" 
             width="48px" height="48px"/>
         </div>  
         
         <!--Main Middle Column--> 
-        <div class ="col-10 ps-0">
+        <div class ="col-10 ps-0 bg-black">
         <!--Name and Title--> 
-          <div class="pb-3">
+          <div class="pb-3 bg-black">
             ${post.userName}<i class="fa fa-check-circle"></i>
               <small class="text-muted">${post.handle} · ${post.time} </small>
           <br>
             ${post.heading}
           </div>
         <!--Post with image-->
-          <div class="card">
-            <img src="${post.cardImage}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title">${post.cardHeading}</h6>
-              <p class="card-text text-muted">${post.cardText}
-                <span><i class="fas fa-link"></i>${post.cardLink} </span>
+          <div class="card wd-card-border border-solid wd-card-border-color bg-black">
+            <img src="${post.cardImage}" class="card-img-top wd-image-border wd-card-border-color" alt="...">
+            <div class="card-body ${post.cardHeading===''&&post.cardText===''&& post.cardLink==='' ? 'wd-display-none' : ''}">
+              <h6 class="card-title ${post.cardHeading==='' ? 'wd-display-none' : ''}" >${post.cardHeading}</h6>
+              <p class="card-text text-muted ${post.cardText==='' ? 'wd-display-none' : ''}">${post.cardText}
+                <br><span ${post.cardLink==='' ? 'wd-display-none' : ''}><i class="fas fa-link"></i>${post.cardLink} </span>
               </p>
             </div>
           </div>
         <!--Reply, retuit, like, share icons-->  
-          <div class="d-flex justify-content-between text-muted mt-2">
-            <div>
+          <div class="d-flex flex-row text-muted mt-2">
+            <div class="col-3">
               <i class="far fa-comment"></i>
-              <span>${post.repliesNumber}</span>
+              <span class="wd-margin-icon">${post.repliesNumber}</span>
             </div>
-            <div>
-              <i class="far fa-comment"></i>
-              <span>${post.repliesNumber}</span>
+            <div class="col-3">
+              <i class="fa fa-retweet"></i>
+              <span class="wd-margin-icon">${post.shareNumber}</span>
             </div>
-            <div>
-              <i class="far fa-comment"></i>
-              <span>${post.repliesNumber}</span>
+            <div class="col-3">
+              <i class="far fa-heart"></i>
+              <span class="wd-margin-icon">${post.repliesNumber}</span>
             </div>
-            <div>
-              <i class="far fa-comment"></i>
-              <span>${post.repliesNumber}</span>
+            <div class="col-3">
+              <i class="far fa-share-square"></i>
             </div>
           </div>
           

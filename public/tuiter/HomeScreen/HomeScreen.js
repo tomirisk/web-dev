@@ -5,7 +5,7 @@ import PostList from "./PostList/PostList.js";
 (function ($) {
   $('#wd-explore').append(`
     <div class="row mt-2">
-      <div class="col-2 col-md-2 col-lg-1 col-xl-2">
+      <div class="col-2 col-md-2 col-lg-1 col-xl-2 bg-black">
         ${NavigationSidebar('home')} 
       </div>
       <div class="col-7 col-md-7 col-lg-7 col-xl-6">

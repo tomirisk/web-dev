@@ -1,6 +1,6 @@
 const PostSummaryItem = (post) => {
   return(`
-    <div class="card wd-borders-not-rounded">
+    <div class="card wd-borders-not-rounded bg-black wd-card-border-color">
         <div class="row no-gutters wd-min-height">
 
           <div class="col-md-9 pt-0">

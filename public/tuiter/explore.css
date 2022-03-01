@@ -88,3 +88,27 @@ a
 .wd-min-height {
   min-height: 80px;
 }
+
+.wd-display-none {
+  display: none;
+}
+
+.wd-card-border {
+  border-radius: 5%;
+}
+
+.wd-image-border {
+  border-radius: 7%;
+}
+
+.wd-card-border-color {
+  border-color: #403e3e;
+}
+
+.wd-text-on-image-color {
+  color: #2d2c2c;
+}
+
+.wd-margin-icon {
+  margin-left: 7px;
+}

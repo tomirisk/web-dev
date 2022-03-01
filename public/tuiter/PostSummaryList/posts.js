@@ -6,7 +6,7 @@ export default exploreItems = [
     time: '2h',
     title: 'React.js is a component based front end library that makes it '
         + 'easy to build Single Page Applications or SPAs',
-    image: '../images/reacr-js.png'
+    image: '../images/react.png.jpeg'
   },
   {
     topic: '',
@@ -28,7 +28,7 @@ export default exploreItems = [
     userName: 'NodeJS',
     title: '',
     time: 'last month',
-    image: '../images/node.png',
+    image: '../images/nodejs-logo.png',
     tweets: '120K',
   },
 ];

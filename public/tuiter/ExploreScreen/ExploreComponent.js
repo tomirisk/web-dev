@@ -1,6 +1,7 @@
 import PostSummaryList from "../PostSummaryList/index.js";
 import SearchField from "./SearchField.js";
 import Tabs from "./Tabs.js";
+import ImageWithText from "./ImageWithText.js";
 
 const ExploreComponent = () => { return(`
   <div class="row pb-2">
@@ -12,6 +13,7 @@ const ExploreComponent = () => { return(`
     ${Tabs()} 
   </ul>
 <!-- image with overlaid text -->
+  ${ImageWithText()}
   ${PostSummaryList()} 
 `);
 }
