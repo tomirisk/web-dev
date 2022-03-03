@@ -19,8 +19,8 @@ const PostItem = (post) => {
             ${post.heading}
           </div>
         <!--Post with image-->
-          <div class="card wd-card-border border-solid wd-card-border-color bg-black">
-            <img src="${post.cardImage}" class="card-img-top wd-image-border wd-card-border-color" alt="...">
+          <div class="card wd-border bg-black">
+            <img src="${post.cardImage}" class="card-img wd-border" alt="...">
             <div class="card-body ${post.cardHeading===''&&post.cardText===''&& post.cardLink==='' ? 'wd-display-none' : ''}">
               <h6 class="card-title ${post.cardHeading==='' ? 'wd-display-none' : ''}" >${post.cardHeading}</h6>
               <p class="card-text text-muted ${post.cardText==='' ? 'wd-display-none' : ''}">${post.cardText}
@@ -28,7 +28,7 @@ const PostItem = (post) => {
               </p>
             </div>
           </div>
-        <!--Reply, retuit, like, share icons-->  
+        <!--Reply, retuit, like, share icons-->
           <div class="d-flex flex-row text-muted mt-2">
             <div class="col-3">
               <i class="far fa-comment"></i>
