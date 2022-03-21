@@ -1,3 +1,4 @@
+
 [
   {
     "avatarIcon": "./images/ElonMusk.jpg",
@@ -9,6 +10,7 @@
     "cardHeading": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
     "cardText": "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space ...",
     "cardLink": "netflix.com",
+    "link": "",
     "repliesNumber": "4.2K",
     "shareNumber": "3.5K",
     "likesNumber": "37.5K"
@@ -18,8 +20,7 @@
     "userName": "New York Post",
     "time": "23h",
     "handle": "@nypost",
-    "heading": "Grimes seen reading Karl Marx following split with world's richest man Elon",
-    "link": "trib.al/nx2Gfaq",
+    "heading": "Grimes seen reading Karl Marx following split with world's richest man Elon trib.al/nx2Gfaq",
     "cardImage": "./images/post2image.jpg",
     "cardHeading": "",
     "cardText": "",

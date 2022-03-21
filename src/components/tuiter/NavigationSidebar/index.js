@@ -9,12 +9,12 @@ return(
     <>
     <div className="list-group">
       <Link to="/"
-      className="list-group-item">
+      className="list-group-item bg-black">
       <i className="fab fa-twitter"/>
       </Link>
 
       <Link to="/tuiter/home"
-       className={`list-group-item ${status === 'home' ? 'active' : ''}`}>
+       className={`list-group-item ${status === 'home' ? 'active' : ''} bg-black`}>
         <i className="fa fa-home"/>
           <span className="navigation-label wd-left-tab">
             Home
@@ -22,7 +22,7 @@ return(
       </Link>
 
       <Link to="/tuiter/explore"
-       className={`list-group-item ${status === 'explore' ? 'active' : ''}`}>
+       className={`list-group-item ${status === 'explore' ? 'active' : ''} bg-black`}>
         <i className="fa fa-hashtag"/>
           <span className="navigation-label wd-left-tab">
             Explore

@@ -16,7 +16,7 @@ const Tabs = () => {
           <Link to="/" className="nav-link" >Sports</Link>
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-link">Entertainment</Link>
+          <Link to="/" className="nav-link wd-entertainment-tab">Entertainment</Link>
         </li>
       </>
   );

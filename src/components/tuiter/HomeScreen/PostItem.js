@@ -17,6 +17,7 @@ const PostItem = ( {
       "likesNumber": "37.5K"
     }
 }) => {
+
   return(
       <>
         <li className="list-group-item wd-follow bg-black">
