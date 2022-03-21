@@ -14,7 +14,7 @@ const WhoToFollowListItem = (
           <div className="d-flex flex-row">
             <div>
               <img src={who.avatarIcon} className="img-responsive rounded-circle"
-                   width="48px" height="48px"/>
+                   width="48px" height="48px" alt="..."/>
             </div>
             <div className="ps-2">
               <b>{who.userName}<i className="fa fa-check-circle"/></b>

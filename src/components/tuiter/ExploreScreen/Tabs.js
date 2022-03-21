@@ -1,21 +1,22 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Tabs = () => {
   return(
       <>
         <li className="nav-item">
-          <a className="nav-link active" href="#">For You</a>
+          <Link to="/" className="nav-link active">For You</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Trending</a> </li>
+          <Link to="/" className="nav-link">Trending</Link> </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">News</a>
+          <Link to="/" className="nav-link">News</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Sports</a>
+          <Link to="/" className="nav-link" >Sports</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Entertainment</a>
+          <Link to="/" className="nav-link">Entertainment</Link>
         </li>
       </>
   );

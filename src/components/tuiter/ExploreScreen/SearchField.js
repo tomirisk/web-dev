@@ -1,3 +1,6 @@
+import React from "react";
+import {Link} from "react-router-dom";
+
 const SearchField = () => {
   return(
       <>
@@ -9,7 +12,7 @@ const SearchField = () => {
     </div>
 
     <div className="col-2 position-relative wd-fg-blue">
-      <a href="#"><i className="fas fa-cog fa-stack-2x"/></a>
+      <Link to="/"><i className="fas fa-cog fa-stack-2x"/></Link>
     </div>
       </>
   );
