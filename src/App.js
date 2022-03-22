@@ -5,7 +5,7 @@ import './vendors/bootstrap/fontawesome/css/all.css';
 import HelloWorld from "./components/helloworld/hello-world.js";
 import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
-import HomeScreen from "./components/tuiter/HomeScreen/HomeScreen";
+import Index from "./components/tuiter/HomeScreen";
 import ExploreScreen from "./components/tuiter/ExploreScreen";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
@@ -26,7 +26,7 @@ function App() {
                    exact={true}
                    element={<Tuiter/>}/>
             <Route path="/tuiter/home"
-                   element={<HomeScreen/>}/>
+                   element={<Index/>}/>
             <Route path="/tuiter/explore"
                    element={<ExploreScreen/>}/>
           </Routes>

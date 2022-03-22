@@ -1,5 +1,5 @@
 import WhoToFollowListItem from "./WhoToFollowListItem";
-import who from "./who.json"
+import who from "./who"
 const WhoToFollow = () => {
   return (
     <ul className="list-group">
