@@ -1,11 +1,10 @@
-
 [
   {
     "avatarIcon": "./images/ElonMusk.jpg",
     "userName": "Elon Musk",
     "time": "23h",
     "handle": "@elonmusk",
-    "heading": "Amazing show about @Inspiration4x mission!",
+    "heading": "Amazing show about <a href=https:/tuiter.com/inspiration4x style='text-decoration:none'> @Inspiration4x </a> mission!",
     "cardImage": "./images/post1image.jpg",
     "cardHeading": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
     "cardText": "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space ...",
@@ -20,7 +19,7 @@
     "userName": "New York Post",
     "time": "23h",
     "handle": "@nypost",
-    "heading": "Grimes seen reading Karl Marx following split with world's richest man Elon trib.al/nx2Gfaq",
+    "heading": "Grimes seen reading Karl Marx following split with world's richest man Elon <a href=https://nypost.com/2021/10/02/grimes-reads-karl-marx-after-split-with-worlds-richest-man-elon-musk style='text-decoration:none'/> trib.al/nx2Gfaq </a>",
     "cardImage": "./images/post2image.jpg",
     "cardHeading": "",
     "cardText": "",

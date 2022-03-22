@@ -34,7 +34,7 @@ const PostItem = ( {
                 {post.userName}<i className="fa fa-check-circle"/>
                   <small className="text-muted">{post.handle} · {post.time} </small>
               <br/>
-                {post.heading}
+                <div dangerouslySetInnerHTML={{__html: post.heading}}/>
               </div>
 
               <div className="card wd-border bg-black">
