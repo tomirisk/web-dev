@@ -12,7 +12,7 @@ return(
       </Link>
 
       <Link to="/tuiter/home"
-       className={`list-group-item ${path.includes('home') ? 'active' : ''}`}>
+       className={`list-group-item ${(path.includes('home') || path.endsWith('tuiter')) ? 'active' : ''}`}>
         <i className="fa fa-home"/>
           <span className="navigation-label wd-left-tab">
             Home

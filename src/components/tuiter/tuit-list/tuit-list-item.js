@@ -1,4 +1,4 @@
-import { useDispatch } from "react-redux";
+import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats";
 import React from "react";
 
@@ -33,7 +33,7 @@ const TuitListItem = ({
   };
   return (
       <>
-        <li className="list-group-item wd-follow">
+        <li className="list-group-item">
           <div className="row">
 
             <div className="col-2">
@@ -55,7 +55,7 @@ const TuitListItem = ({
                       <img src={tuit.attachments.image} className="card-img wd-border mt-2" alt="..."/>
                           : ""}
                       {tuit.attachments.video ?
-                          <iframe height="350em" id="testframe" title="video1257" className="wd-border" src={'https://www.youtube.com/embed/' + tuit.attachments.video}/>
+                          <iframe id="testframe" title="video1257" className="wd-border" height="350em"  src={'https://www.youtube.com/embed/' + tuit.attachments.video}/>
                           : ""}
                     </div>
                 : ""}

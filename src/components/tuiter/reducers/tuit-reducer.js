@@ -7,15 +7,15 @@ const tuitsReducer = (state = tuits, action) => {
         tuit: action.tuit,
         _id: (new Date()).getTime() + '',
         postedBy: {
-          username: "ReactJS"
+          username: "Elon Musk"
         },
-        handle: "ReactJS",
+        handle: "elonmusk",
         stats: {
-          retuits: 0,
-          likes: 0,
-          comments: 0
+          retuits: 111,
+          likes: 222,
+          comments: 333
         },
-        logo_image: "https://i.postimg.cc/qM11r9Vy/react-png.jpg",
+        logo_image: "https://cdn.ricochet.com/app/uploads/2021/12/ElonMusk_400x400.jpg",
       }
       return [
         newTuit,
