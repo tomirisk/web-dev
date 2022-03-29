@@ -34,7 +34,7 @@
     "title": "",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "attachments": {
-      "image": "./tuiter/images/Starship-Mk1-Day.jpg"
+      "image": "https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg"
     },
     "time": "last month",
     "logo_image": "https://i.postimg.cc/Nj0PrQ7d/nodejs-logo.png",

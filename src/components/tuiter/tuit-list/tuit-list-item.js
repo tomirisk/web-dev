@@ -45,14 +45,14 @@ const TuitListItem = ({
               <p>
                 <strong>{tuit.postedBy.username} <i className="fa fa-check-circle"/></strong>
                 <strong className="text-muted"> @{tuit.handle}</strong>
-                <br></br>
+                <br/>
                 {tuit.tuit}
               </p>
 
                 {tuit.attachments ?
-                    <div className="card wd-border mt-2">
+                    <div className="card wd-border">
                       {tuit.attachments.image ?
-                      <img src={tuit.attachments.image} className="card-img wd-border mt-2" alt="..."/>
+                      <img src={tuit.attachments.image} className="card-img wd-border" alt="..."/>
                           : ""}
                       {tuit.attachments.video ?
                           <iframe id="testframe" title="video1257" className="wd-border" height="350em"  src={'https://www.youtube.com/embed/' + tuit.attachments.video}/>
