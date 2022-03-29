@@ -10,7 +10,7 @@ const WhoToFollowListItem = (
     }) => {
   return(
       <>
-        <li className="list-group-item wd-follow bg-black">
+        <li className="list-group-item wd-follow">
           <div className="d-flex flex-row">
             <div>
               <img src={who.avatarIcon} className="img-responsive rounded-circle"

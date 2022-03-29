@@ -106,3 +106,35 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.wd-color-red{
+  color: red;
+}
+
+.wd-text-area{
+  background: transparent;
+  width: 100%;
+  height: 50%;
+  color: white;
+  border-bottom: solid #7f7f7f;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.wd-blue-icon{
+  color: #4385a8
+}
+
+.wd-font-bold{
+  font-weight: bold;
+}
+
+.wd-profile-pic{
+  width: 150px;
+  height: 150px;
+  margin-top: -75px;
+  margin-left: 10px;
+}
+
+

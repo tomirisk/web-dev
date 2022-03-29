@@ -1,0 +1,15 @@
+
+  {
+    "firstName": "Jennie",
+    "lastName": "Kim",
+    "handle": "jkim",
+    "profilePicture": "https://media.allure.com/photos/605a83124253ce91c26d572f/master/w_3000,h_3600,c_limit/HERA%20BLACKPINK%20JENNIE%20CAMPAIGN%208.jpg",
+    "bannerPicture": "https://i.pinimg.com/originals/79/1e/43/791e4352e16e7b8c2356e323103fd7ab.jpg",
+    "bio": "BlackPink singer, dancer",
+    "website": "youtube.com/twrptube",
+    "location": "Seoul, KR",
+    "dateOfBirth": "01/01/2001",
+    "dateJoined": "5/2011",
+    "followingCount": 11,
+    "followersCount": 1000
+  }

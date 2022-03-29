@@ -1,5 +1,5 @@
 import PostItem from "./PostItem"
-import posts from "./posts"
+import posts from "./posts.json"
 
 const PostList = () => {
   return (
