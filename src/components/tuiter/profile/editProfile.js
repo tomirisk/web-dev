@@ -8,7 +8,7 @@ const EditProfile = () => {
   let [lastName, setLastName] = useState(profile.lastName);
   let [bio, setBio] = useState(profile.bio);
   let [location, setLocation] = useState(profile.location);
-  let [website, setWebsite] = useState(profile.website);
+  let [website] = useState(profile.website);
   let [dateOfBirth, setDateOfBirth] = useState(new Date(profile.dateOfBirth).toLocaleDateString("en-CA"));
   const dispatch = useDispatch();
   const saveClickHandler = () => {
