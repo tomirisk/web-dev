@@ -1,7 +1,7 @@
 /*alert('Hello World!');*/
 
-console.log('Hello World!');
 
+console.log('Hello World!');
 
 console.log('Variables and Constants');
 global1 = 10;

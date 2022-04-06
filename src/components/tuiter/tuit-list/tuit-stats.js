@@ -1,38 +1,52 @@
 import { useDispatch } from "react-redux";
+import {updateTuit} from "../actions/tuits-actions";
 
 const TuitStats = ({tuit}) => {
   const dispatch = useDispatch();
-  const likeTuit = () => {
-    dispatch({type: 'like-tuit', tuit});
-  };
+
   return (
       <>
-        <div className="col-3">
+        <div className="row mt-2">
+        <div className="col">
           <i className="far fa-comment wd-margin-icon"/>
-          <span>{tuit.stats.comments}</span>
+          <span>{tuit.comments}</span>
         </div>
 
-        <div className="col-3">
+        <div className="col">
           <i className="fa fa-retweet wd-margin-icon"/>
-          <span>{tuit.stats.retuits}</span>
+          <span>{tuit.retuits}</span>
         </div>
 
-        <div className="col-3">
-          <span onClick={likeTuit}>
+
+        <div className="col">
+          <span onClick={() => updateTuit(dispatch, {
+            ...tuit,
+            likes: tuit.likes + 1
+          })}>
                 {
-                  tuit.liked &&
-                  <i className="fa fa-heart wd-margin-icon wd-color-red"/>
+                  <i className="far fa-thumbs-up ms-2"/>
                 }
-            {
-              !tuit.liked &&
-              <i className="fa fa-heart wd-margin-icon"/>
-            }
-            {tuit.stats && tuit.stats.likes}
+            {tuit && tuit.likes}
                 </span>
         </div>
 
-        <div className="col-3">
+
+        <div className="col">
+          <span onClick={() => updateTuit(dispatch, {
+            ...tuit,
+            dislikes: tuit.dislikes + 1
+          })}>
+                {
+                  <i className="far fa-thumbs-down ms-2"/>
+                }
+            {tuit && tuit.dislikes}
+                </span>
+        </div>
+
+
+        <div className="col">
           <i className="far fa-share-square wd-margin-icon"/>
+        </div>
         </div>
       </>
   );
