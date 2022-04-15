@@ -32,19 +32,6 @@ const TuitStats = ({tuit}) => {
 
 
         <div className="col">
-          <span onClick={() => updateTuit(dispatch, {
-            ...tuit,
-            dislikes: tuit.dislikes + 1
-          })}>
-                {
-                  <i className="far fa-thumbs-down ms-2"/>
-                }
-            {tuit && tuit.dislikes}
-                </span>
-        </div>
-
-
-        <div className="col">
           <i className="far fa-share-square wd-margin-icon"/>
         </div>
         </div>

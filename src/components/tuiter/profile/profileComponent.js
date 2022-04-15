@@ -8,9 +8,7 @@ const ProfileScreen = () => {
   return(
       <>
         <div className="d-flex align-items-center mt-2">
-
           <div>
-
             <h5 className="wd-font-bold"><i className="fa fas fa-arrow-left"/> {profile.firstName} {profile.lastName}</h5>
             <h6 className="text-secondary ms-4">{profile.tuitNumber} Tuits</h6>
           </div>

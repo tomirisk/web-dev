@@ -18,7 +18,7 @@ const WhatsHappening = () => {
 
           <textarea className="form-control w-75"
             onChange={(e) =>
-                setNewTuit({...newTuit, tuit: e.target.value, likes: 0, dislikes: 0, logo_image: "https://cdn.ricochet.com/app/uploads/2021/12/ElonMusk_400x400.jpg"})
+                setNewTuit({...newTuit, tuit: e.target.value, likes: 0, postedBy:{username:"Jose"}, logo_image: "https://cdn.ricochet.com/app/uploads/2021/12/ElonMusk_400x400.jpg"})
             }/>
 
           <div className="row">
