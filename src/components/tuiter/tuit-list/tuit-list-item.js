@@ -44,7 +44,7 @@ const TuitListItem = ({
             <div className="col-9 ps-0">
               <p>
                 <strong>{tuit.postedBy.username} <i className="fa fa-check-circle"/></strong>
-                <strong className="text-muted"> @{tuit.handle}</strong>
+                <strong className="text-muted"> @{tuit.postedBy.username}</strong>
                 <br/>
                 {tuit.tuit}
               </p>
